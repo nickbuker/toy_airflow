@@ -1,3 +1,22 @@
+# See template: https://github.com/apache/airflow/blob/master/.gitignore
+
+# Pyenv stuff
 .python-version
+
+# Text Editor / IDE stuff
 .vscode/
 .idea/
+
+# Python3 stuff
+__pycache__/
+
+# Airflow logs
+logs/
+
+# Airflow config
+airflow.cfg
+unittests.cfg
+
+# Airflow sqlite databases
+airflow.db
+unittests.db
