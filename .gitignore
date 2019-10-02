@@ -2,6 +2,7 @@
 
 # Pyenv stuff
 .python-version
+.pyenv/
 
 # Text Editor / IDE stuff
 .vscode/
