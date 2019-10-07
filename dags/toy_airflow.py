@@ -48,7 +48,7 @@ task_3 = PythonOperator(
     dag=dag,
 )
 
-# Specify dependencies
+# Specify dependencies (discuss Scheduler)
 [task_1, task_2] >> task_3
 
 # This is equivalent to:
