@@ -22,7 +22,7 @@ default_args = {
 dag = DAG(
     dag_id='nick_toy_airflow',
     default_args=default_args,
-    catchup=False,
+    catchup=False,  # don't forget to set to False!
     schedule_interval='* * * * *',
 )
 
